@@ -1,0 +1,59 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: dependabot-omnibus
+    versions:
+    - 0.130.3
+    - 0.131.0
+    - 0.131.2
+    - 0.132.0
+    - 0.133.0
+    - 0.133.1
+    - 0.133.2
+    - 0.133.3
+    - 0.133.4
+    - 0.133.5
+    - 0.133.6
+    - 0.134.0
+    - 0.134.1
+    - 0.134.2
+    - 0.135.0
+    - 0.136.0
+    - 0.137.1
+    - 0.137.2
+    - 0.138.1
+    - 0.138.2
+    - 0.138.3
+    - 0.138.4
+    - 0.138.5
+    - 0.138.6
+    - 0.139.0
+    - 0.139.1
+    - 0.139.2
+    - 0.140.0
+    - 0.140.2
+    - 0.141.0
+    - 0.141.1
+    - 0.142.0
+    - 0.142.1
+    - 0.143.1
+    - 0.143.3
+  - dependency-name: excon
+    versions:
+    - 0.78.1
+    - 0.79.0
+    - 0.80.1
+  - dependency-name: nokogiri
+    versions:
+    - 1.11.1
+    - 1.11.2
+  - dependency-name: irb
+    versions:
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
